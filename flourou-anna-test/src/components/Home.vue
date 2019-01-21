@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     <img class="desktop_hero_bckd" src="@/assets/desktop_hero_background.jpg">
     <Navbar></Navbar>
     <div class="home_elements">
@@ -23,13 +23,14 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#home {
+  height: 885px;
+}
 .desktop_hero_bckd {
-position: absolute;
-height : 100vh;
-width: 100vw;
+  position: absolute;
+  width: 100%;
+  height: 885px;
 }
 .home_elements {
   position: relative;
