@@ -62,7 +62,4 @@ li, a {
 .active {
   border-bottom: 1px solid #FFFFFF;
 }
-h1{
-	color: #FFFFFF;
-}
 </style>
