@@ -30,7 +30,7 @@ export default {
 }
 .section3_block {
   right: 1rem;
-  height: 626px;
+  height: 572px;
   width: 100%;
 }
 .section3_img {
