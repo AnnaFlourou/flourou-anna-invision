@@ -1,18 +1,18 @@
 <template>
-  <div id="footer" class="container-fluid">
+  <div id="endPart" class="container-fluid">
 <div class="container-fluid d-none d-lg-block">
   <div class="row">
     <div class="col-6">
       <img class="img_desktop" src="@/assets/logo_black.svg">
     </div>
-    <div class="row footer_information_desktop">
-      <div class="col-6 footer_block_desktop">
+    <div class="row endPart_information_desktop">
+      <div class="col-6 endPart_block_desktop">
         <p class="desktop_pBold"><span>Sitemap</span></p>
         <p class="desktop_p">Home</p>
         <p class="desktop_p">Discover</p>
         <p class="desktop_p">Hikes</p>
       </div>
-      <div class="col-6 footer_block_desktop">
+      <div class="col-6 endPart_block_desktop">
         <p class="desktop_pBold"><span>Contact</span></p>
         <p class="desktop_p">123 rue bidon</p>
         <p class="desktop_p">65000 Aulon</p>
@@ -26,14 +26,14 @@
   <div class="col-6">
     <img class="img_mobile" src="@/assets/logo_black.svg">
   </div>
-  <div class="footer_information_mobile">
-    <div class="footer_block_mobile">
+  <div class="endPart_information_mobile">
+    <div class="endPart_block_mobile">
       <p class="mobile_p"><span>Sitemap</span></p>
       <p class="mobile_p">Home</p>
       <p class="mobile_p">Discover</p>
       <p class="mobile_p">Hikes</p>
     </div>
-    <div class="footer_block_mobile">
+    <div class="endPart_block_mobile">
       <p class="mobile_p"><span>Contact</span></p>
       <p class="mobile_p">123 rue bidon</p>
       <p class="mobile_p">65000 Aulon</p>
@@ -50,7 +50,7 @@
 
 <script>
 export default {
-  name: 'footer',
+  name: 'endPart',
   data () {
     return {
     }
@@ -82,12 +82,12 @@ export default {
 	letter-spacing: 0.45px;
 	line-height: 21px;
 }
-.footer_information_desktop {
+.endPart_information_desktop {
 	font-family: "SF Pro Display Light";
   margin: 0 auto;
   padding: 4rem;
 }
-.footer_block_desktop {
+.endPart_block_desktop {
 padding-right: 5rem;
 }
 
@@ -98,7 +98,7 @@ padding-right: 5rem;
  margin-left: 6rem;
 }
 
-.footer_information_mobile {
+.endPart_information_mobile {
   /* margin-left: 6rem;
   margin-top: 2rem; */
   font-family: "SF Pro Display Light";

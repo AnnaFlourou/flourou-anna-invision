@@ -1,7 +1,7 @@
 <template>
   <div id="section_2">
 <!-- version desktop -->
-    <div class="container_desktop container d-none d-lg-block">
+    <div class="container d-none d-lg-block">
       <div class="row">
         <img class="section2_img col-6" src="@/assets/desktop_section2_image.jpg">
         <div class="section2_text col-6">
@@ -54,12 +54,9 @@ export default {
   overflow: hidden;
 }
 /* version desktop */
-.container_desktop {
- height: 100vh;
-}
 .section2_img{
   height: 100%;
-width: 100%;
+  width: 100%;
 }
 .section2_text {
 margin-top: 7.5rem;

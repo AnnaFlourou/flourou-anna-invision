@@ -1,27 +1,28 @@
 <template>
-  <div class="container-fluid">
+  <div>
     <!-- version desktop -->
-    <nav class="navbar navbar_desktop d-none d-lg-block row">
-      <img class="logo-white" src="@/assets/logo_white.svg">
-        <ul class="row nav_items">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Discover</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hikes</a>
-            </li>
-        </ul>
-    </nav>
+<div class="container-fluid d-none d-lg-block">
+  <nav class="navbar navbar_desktop row">
+    <img class="logo-white" src="@/assets/logo_white.svg">
+      <ul class="row nav_items">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hikes</a>
+          </li>
+      </ul>
+  </nav>
+</div>
 
     <!-- version mobile -->
     <nav class="navbar navbar_mobile d-block d-lg-none row">
       <img class="logo_mobile_white col-6" src="@/assets/logo_white.svg">
       <img class="icon_menu" src="@/assets/icon_menu.svg">
     </nav>
-
   </div>
 </template>
 
@@ -73,7 +74,7 @@ li, a {
 /* version mobile */
 .navbar_mobile {
   /* height: 33px; */
-  width: auto;
+  width: 100%;
 }
 .logo_mobile_white {
 margin-top: 3rem;
