@@ -37,9 +37,6 @@ export default {
   height: 572px;
   width: 105%;
 }
-.section3_h3 {
-
-}
 .section3_text {
   position: relative;
   bottom: 8rem;
