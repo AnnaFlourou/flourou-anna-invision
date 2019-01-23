@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main_page">
     <Home></Home>
     <SectionOne></SectionOne>
     <ParallaxImage></ParallaxImage>
@@ -35,4 +35,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#main_page {
+  height: 100vh;
+}
 </style>
