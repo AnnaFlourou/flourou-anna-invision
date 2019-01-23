@@ -4,6 +4,7 @@
     <SectionOne></SectionOne>
     <ParallaxImage></ParallaxImage>
     <SectionTwo></SectionTwo>
+    <SectionThree></SectionThree>
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import Home from "@/components/Home"
 import SectionOne from "@/components/SectionOne"
 import ParallaxImage from "@/components/ParallaxImage"
 import SectionTwo from "@/components/SectionTwo"
+import SectionThree from "@/components/SectionThree"
 export default {
   components: {
     Home,
     SectionOne,
     ParallaxImage,
-    SectionTwo
+    SectionTwo,
+    SectionThree
   },
   name: 'MainPage',
   data () {
