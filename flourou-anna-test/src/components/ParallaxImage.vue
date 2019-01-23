@@ -14,10 +14,10 @@ export default {
 }
 </script>
 <style scoped>
-#parallax_image {
+/* #parallax_image {
   height: 960px;
-  /* width: auto; */
-}
+  width: auto;
+} */
 img {
   max-height: 65vh;
   width: 100%;

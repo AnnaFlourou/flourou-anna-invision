@@ -40,7 +40,7 @@ export default {
   font-family: "SF Pro Display";
   overflow: hidden;
   margin: 0;
-  /* height: 903px; */
+  height: 903px;
 }
 .section1_text {
 width: 1000px;
