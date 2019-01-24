@@ -73,17 +73,16 @@ li, a {
 
 /* version mobile */
 .navbar_mobile {
-  /* height: 33px; */
   width: 100%;
 }
 .logo_mobile_white {
-margin-top: 3rem;
-margin-left: 3rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 .icon_menu {
-width: 6rem;
-height: 6rem;
-margin-top: 3rem;
-margin-left: 15rem;
+  width: 6rem;
+  height: 6rem;
+  margin-top: 3rem;
+  margin-left: 15rem;
 }
 </style>

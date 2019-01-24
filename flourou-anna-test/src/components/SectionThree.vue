@@ -69,11 +69,10 @@ export default {
 }
 /* version mobile */
 .content_mobile{
-width: 100%;
+  width: 100%;
 }
 .section3_img_mobile img{
-width: 100vw;
-/* padding: 0; */
+  width: 100vw;
 }
 .section3_block_mobile .section3_text{
   position: relative;

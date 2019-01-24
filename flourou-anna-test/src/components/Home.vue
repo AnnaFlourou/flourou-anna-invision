@@ -13,7 +13,6 @@
       <h2 class="h_2">Discover Arbizon. </h2>
       <p class="home_text">Interested? Let’s go!</p>
     </div>
-
   </div>
 </template>
 

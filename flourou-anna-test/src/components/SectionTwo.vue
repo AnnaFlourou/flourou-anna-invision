@@ -5,15 +5,15 @@
       <div class="row">
         <img class="section2_img col-6" src="@/assets/desktop_section2_image.jpg">
         <div class="section2_text col-6">
-        <p class="section2_p1">The most beautiful view of the Pyrénées</p>
-        <h3 class="section2_h3">A hike ending in crossing the raptor ridge.</h3>
-        <div class="section2_p2">
-          <p>The normal route to the Arbizon summit is on the south side, the Aulon Valley. The starting point is the barns of Lurgues, near the village of Aulon, about 1400 m above sea level.</p>
-          <p>Another way of access exists: it takes the valley of the lake of Arou and passes within the Arbizon-Montfaucon circus to climb on the crest by the breach of Aurey.</p>
-        </div>
-      <p class="section2_link">
-        <a href="#">Discover hikes !</a>
-      </p>
+          <p class="section2_p1">The most beautiful view of the Pyrénées</p>
+          <h3 class="section2_h3">A hike ending in crossing the raptor ridge.</h3>
+          <div class="section2_p2">
+            <p>The normal route to the Arbizon summit is on the south side, the Aulon Valley. The starting point is the barns of Lurgues, near the village of Aulon, about 1400 m above sea level.</p>
+            <p>Another way of access exists: it takes the valley of the lake of Arou and passes within the Arbizon-Montfaucon circus to climb on the crest by the breach of Aurey.</p>
+          </div>
+        <p class="section2_link">
+          <a href="#">Discover hikes !</a>
+        </p>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
         <div class="section2_p2">
           <p>The normal route to the Arbizon summit is on the south side, the Aulon Valley. The starting point is the barns of Lurgues, near the village of Aulon, about 1400 m above sea level.</p>
           <p>Another way of access exists: it takes the valley of the lake of Arou and passes within the Arbizon-Montfaucon circus to climb on the crest by the breach of Aurey.</p>
-      </div>
+        </div>
       <p class="section2_link">
         <a href="#">Discover hikes !</a>
       </p>
@@ -107,14 +107,14 @@ margin-top: 7.5rem;
 }
 /* version mobile */
 .section2_img_mobile {
-margin: 3rem;
-width: 85%;
-height: auto;
-padding-left: 1rem;
+  margin: 3rem;
+  width: 85%;
+  height: auto;
+  padding-left: 1rem;
 }
 .section2_text_mobile {
-margin: 3rem 5rem;
-width: 100%;
+  margin: 3rem 5rem;
+  width: 100%;
 }
 .section2_text_mobile .section2_p1 {
   font-family: "SF Pro Display Light";
@@ -133,8 +133,6 @@ width: 100%;
 	font-size: 86px;
 	font-weight: 900;
 	letter-spacing: 1.16px;
-  /* margin-bottom: 2rem;
-  margin-top: 2rem; */
 }
 .section2_text_mobile .section2_p2 {
 	font-family: "SF Pro Display Medium";
@@ -156,9 +154,9 @@ width: 100%;
   text-align: center;
 }
 .section2_text_mobile .section2_link a{
-  	color: #000000;
+  color: #000000;
 }
 .section2_text_mobile .section2_link a:hover{
-  	text-decoration: none;
+  text-decoration: none;
 }
 </style>

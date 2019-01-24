@@ -1,50 +1,47 @@
 <template>
   <div id="endPart" class="container-fluid">
-<div class="container-fluid d-none d-lg-block">
-  <div class="row">
-    <div class="col-6">
-      <img class="img_desktop" src="@/assets/logo_black.svg">
-    </div>
-    <div class="row endPart_information_desktop">
-      <div class="col-6 endPart_block_desktop">
-        <p class="desktop_pBold"><span>Sitemap</span></p>
-        <p class="desktop_p">Home</p>
-        <p class="desktop_p">Discover</p>
-        <p class="desktop_p">Hikes</p>
+    <div class="container-fluid d-none d-lg-block">
+      <div class="row">
+        <div class="col-6">
+          <img class="img_desktop" src="@/assets/logo_black.svg">
+        </div>
+        <div class="row endPart_information_desktop">
+          <div class="col-6 endPart_block_desktop">
+            <p class="desktop_pBold"><span>Sitemap</span></p>
+            <p class="desktop_p">Home</p>
+            <p class="desktop_p">Discover</p>
+            <p class="desktop_p">Hikes</p>
+          </div>
+          <div class="col-6 endPart_block_desktop">
+            <p class="desktop_pBold"><span>Contact</span></p>
+            <p class="desktop_p">{{ contact.address }}</p>
+            <p class="desktop_p">{{ contact.post_code }} {{ contact.city }}</p>
+            <p class="desktop_p">{{ contact.email }}</p>
+            <p class="desktop_p">{{ contact.tel }}</p>
+          </div>
+        </div>
       </div>
-      <div class="col-6 endPart_block_desktop">
-        <p class="desktop_pBold"><span>Contact</span></p>
-        <p class="desktop_p">123 rue bidon</p>
-        <p class="desktop_p">65000 Aulon</p>
-        <p class="desktop_p">contact@arbizon.fr</p>
-        <p class="desktop_p">+33 7 12 34 56 78</p>
+    </div>
+    <div class="d-block d-lg-none row">
+      <div class="col-6">
+        <img class="img_mobile" src="@/assets/logo_black.svg">
+      </div>
+      <div class="endPart_information_mobile">
+        <div class="endPart_block_mobile">
+          <p class="mobile_p"><span>Sitemap</span></p>
+          <p class="mobile_p">Home</p>
+          <p class="mobile_p">Discover</p>
+          <p class="mobile_p">Hikes</p>
+        </div>
+        <div class="endPart_block_mobile">
+          <p class="mobile_p"><span>Contact</span></p>
+          <p class="mobile_p">{{ contact.address }}</p>
+          <p class="mobile_p">{{ contact.post_code }} {{ contact.city }}</p>
+          <p class="mobile_p">{{ contact.email }}</p>
+          <p class="mobile_p">{{ contact.tel }}</p>
+        </div>
       </div>
     </div>
-</div>
-</div>
-<div class="d-block d-lg-none row">
-  <div class="col-6">
-    <img class="img_mobile" src="@/assets/logo_black.svg">
-  </div>
-  <div class="endPart_information_mobile">
-    <div class="endPart_block_mobile">
-      <p class="mobile_p"><span>Sitemap</span></p>
-      <p class="mobile_p">Home</p>
-      <p class="mobile_p">Discover</p>
-      <p class="mobile_p">Hikes</p>
-    </div>
-    <div class="endPart_block_mobile">
-      <p class="mobile_p"><span>Contact</span></p>
-      <p class="mobile_p">123 rue bidon</p>
-      <p class="mobile_p">65000 Aulon</p>
-      <p class="mobile_p">contact@arbizon.fr</p>
-      <p class="mobile_p">+33 7 12 34 56 78</p>
-    </div>
-  </div>
-</div>
-<div>
-
-</div>
   </div>
 </template>
 
@@ -53,6 +50,13 @@ export default {
   name: 'endPart',
   data () {
     return {
+      contact: {
+        address: '123 rue Bidon',
+        city: 'Aulon',
+        post_code: '65000',
+        email: 'contact@arbizon.fr',
+        tel: '+33 7 12 34 56 78'
+      }
     }
   }
 }
@@ -99,16 +103,14 @@ padding-right: 5rem;
 }
 
 .endPart_information_mobile {
-  /* margin-left: 6rem;
-  margin-top: 2rem; */
   font-family: "SF Pro Display Light";
   margin: 0 auto;
   padding: 4rem;
 }
 .mobile_p span {
-font-weight: bold;
-color: #000;
-padding-bottom: 3rem;
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 3rem;
 }
 .mobile_p {
 	height: 100%;
@@ -118,5 +120,4 @@ padding-bottom: 3rem;
 	letter-spacing: 0.45px;
 	line-height: 84px;
 }
-
 </style>

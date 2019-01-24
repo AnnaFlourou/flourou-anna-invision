@@ -2,40 +2,40 @@
   <div id="section_1" class="row">
 <!-- texte version desktop -->
     <div class="section1_text col-6 d-none d-lg-block">
-    <p class="paragraphe_1">The Adour of Payolle is born on its northern slope.</p>
-    <h3 class="h_3">The most beautiful view
-    of the Pyrénées.</h3>
-    <div class="paragraphe_2">
-      <p>The Arbizon (2,831 m) is the highest point of the Arbizon massif in the Hautes-Pyrénées. It is located east of the Néouvielle massif, between the Aure valley to the east, and the Campan valley to the north.</p>
+      <p class="paragraphe_1">The Adour of Payolle is born on its northern slope.</p>
+      <h3 class="h_3">The most beautiful view
+      of the Pyrénées.</h3>
+      <div class="paragraphe_2">
+        <p>The Arbizon (2,831 m) is the highest point of the Arbizon massif in the Hautes-Pyrénées. It is located east of the Néouvielle massif, between the Aure valley to the east, and the Campan valley to the north.</p>
 
         <p>From a geological point of view, the peak of the Arbizon lies at the contact between the granitic massif of Neouvielle (pluton) and the various shales and marls of the Carboniferous.</p>
 
         <p>Thus, it is located in the halo of metamorphism caused by the rise of magma within the continental lithosphere, during the various movements of orogenesis that the region has known. Its geological wealth is known to the greatest number: one can find there particular minerals, resulting from the partial recrystallization of the schistose country, such as garnets, axinite, vesuvianite, etc.</p>
-    </div>
+      </div>
   </div>
 <!-- image version desktop -->
-<div class="col-6 d-none d-lg-block">
-    <img class="img_section1_desktop" src="@/assets/desktop_section1_background.svg">
-</div>
-<div>
-<!-- image version mobile -->
-<div class="d-block d-lg-none col-12">
-    <img class="img_section1_mobile" src="@/assets/mobile_section1_background.svg">
-</div>
-<!-- texte version mobile -->
-  <div class="section1_text_mobile d-block d-lg-none">
-    <p class="paragraphe_1">The Adour of Payolle is born on its northern slope.</p>
-    <h3 class="h_3">The most beautiful view
-    of the Pyrénées.</h3>
-    <div class="paragraphe_2">
-      <p>The Arbizon (2,831 m) is the highest point of the Arbizon massif in the Hautes-Pyrénées. It is located east of the Néouvielle massif, between the Aure valley to the east, and the Campan valley to the north.</p>
-
-        <p>From a geological point of view, the peak of the Arbizon lies at the contact between the granitic massif of Neouvielle (pluton) and the various shales and marls of the Carboniferous.</p>
-
-        <p>Thus, it is located in the halo of metamorphism caused by the rise of magma within the continental lithosphere, during the various movements of orogenesis that the region has known. Its geological wealth is known to the greatest number: one can find there particular minerals, resulting from the partial recrystallization of the schistose country, such as garnets, axinite, vesuvianite, etc.</p>
+    <div class="col-6 d-none d-lg-block">
+      <img class="img_section1_desktop" src="@/assets/desktop_section1_background.svg">
     </div>
-  </div>
-</div>
+    <div>
+      <!-- image version mobile -->
+      <div class="d-block d-lg-none col-12">
+        <img class="img_section1_mobile" src="@/assets/mobile_section1_background.svg">
+      </div>
+      <!-- texte version mobile -->
+      <div class="section1_text_mobile d-block d-lg-none">
+        <p class="paragraphe_1">The Adour of Payolle is born on its northern slope.</p>
+        <h3 class="h_3">The most beautiful view
+        of the Pyrénées.</h3>
+        <div class="paragraphe_2">
+          <p>The Arbizon (2,831 m) is the highest point of the Arbizon massif in the Hautes-Pyrénées. It is located east of the Néouvielle massif, between the Aure valley to the east, and the Campan valley to the north.</p>
+
+          <p>From a geological point of view, the peak of the Arbizon lies at the contact between the granitic massif of Neouvielle (pluton) and the various shales and marls of the Carboniferous.</p>
+
+          <p>Thus, it is located in the halo of metamorphism caused by the rise of magma within the continental lithosphere, during the various movements of orogenesis that the region has known. Its geological wealth is known to the greatest number: one can find there particular minerals, resulting from the partial recrystallization of the schistose country, such as garnets, axinite, vesuvianite, etc.</p>
+        </div>
+        </div>
+      </div>
   </div>
 </template>
 
